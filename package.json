@@ -1,0 +1,28 @@
+{
+  "name": "public-views",
+  "version": "0.0.1",
+  "description": "Conveniently access public views",
+  "keywords": [  ],
+  "author": "Michael Robinson <mike@pagesofinterest.net>",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/faceleg/public-views.git"
+    }
+  ],
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "vows --spec test/api-test.js"
+  },
+  "engines": [
+    "node"
+  ],
+  "main": "./lib/public-views.js"
+}
